@@ -11,16 +11,11 @@ let RER2 = document.getElementById("RER2");
 deleter.addEventListener('click', ()=>{
 if (deleted==false) {
     deleted = true;
-    RER.style.visibility = 'hidden';
-    Terra.style.visibility = 'hidden';
-    Javier.style.visibility = 'hidden';
-    RER2.style.visibility = 'hidden';
-}
-if (deleted==true) {
-    deleted = false;
-    RER.style.visibility = 'visible';
-    Terra.style.visibility = 'visible';
-    Javier.style.visibility = 'visible';
-    RER2.style.visibility = 'visible';
+    Terra.innerHTML = "";
+    Javier.innerHTML = "";
+    RER.innerHTML = "";
+    RER2.innerHTML = "";
+} else {
+    location.reload();
 }
 })
