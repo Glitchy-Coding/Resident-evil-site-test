@@ -27,3 +27,12 @@ hr {
 #deletetext:hover {
     background-color: orange;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
