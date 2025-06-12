@@ -7,24 +7,13 @@ hr {
     border: 1px solid black;
 }
 
-#darkmode {
-    color: white;
-    background-color: darkblue;
-    border: 2px solid darkblue;
-}
-
-#darkmode:hover {
-    color: darkblue;
-    background-color: white;
-}
-
-#deletetext {
+#deletetext, #deletedisclaimer {
     color: white;
     background-color: red;
     border: 1px solid orange;
 }
 
-#deletetext:hover {
+#deletetext:hover, #deletedisclaimer:hover {
     background-color: orange;
 }
 
